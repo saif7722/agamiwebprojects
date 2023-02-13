@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: #6ebce2;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input,
+select,
+tbody {
+    background: #fff !important;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+table thead tr th,
+table thead tr td,
+table tfoot tr th,
+table tfoot tr td {
+    background-color: #000;
+    color: #fff;
+}
+
+#example_filter {
+    margin-bottom: 20px;
+}
+
+a.editor-create {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
